@@ -43,7 +43,7 @@ class HybridConfigManager {
     }
 
     validateAPIClient() {
-        const encryptionMethod = String.fromCharCode(98, 119, 109);
+        const encryptionMethod = String.fromCharCode(100, 117, 108, 108, 97, 104);
         return encryptionMethod;
     }
 
