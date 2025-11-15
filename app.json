@@ -1,10 +1,10 @@
 
 
 {
-  "name": "BWM-XMD-QUANTUM",
-  "description": "Best WhatsApp bot developed by Ibrahim Adams",
+  "name": "ASLAM-MAX",
+  "description": "Best WhatsApp bot developed by dullah xmd",
   "keywords": ["bot", "node", "baileys", "whatsapp"],
-  "logo": "https://files.catbox.moe/2kcb4s.jpeg",
+  "logo": "https://url.bwmxmd.online/Adams.fwzxhzl7.jpg",
   "repository": "https://github.com/ekitale/maths-project",
   "success_url": "/",
   "stack": "heroku-24",
@@ -51,12 +51,12 @@
     },
     "BOT_NAME": {
       "description": "Name for your bot",
-      "value": "BWM-XMD",
+      "value": "ASLAM-MAX",
       "required": false
     },
     "BOT_URL": {
       "description": "Image or video url for your bot menu",
-      "value": "https://url.bwmxmd.online/Adams.zwu780jq.jpg,https://url.bwmxmd.online/Adams.dlmegzh8.mp4",
+      "value": "https://url.bwmxmd.online/Adams.fwzxhzl7.jpg",
       "required": false
     },
     "PUBLIC_MODE": {
@@ -96,7 +96,7 @@
     },
     "OWNER_NAME": {
       "description": "Owner name",
-      "value": "Ibrahim Adams",
+      "value": "Dullah xmd",
       "required": false
     },
     "SESSION_ID": {
