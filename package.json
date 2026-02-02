@@ -32,7 +32,7 @@
     "@hapi/boom": "^10.0.1",   
     "@types/node": "^18.0.6",
     "@octokit/rest": "^22.0.0",
-    ""@whiskeysockets/baileys": "npm:baileys@6.7.18",
+    "@whiskeysockets/baileys": "npm:baileys@6.7.18",
     "acrcloud": "^1.4.0",
     "adm-zip": "^0.5.16",
     "api-dylux": "^1.8.5",
