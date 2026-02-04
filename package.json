@@ -33,7 +33,7 @@
     "@types/node": "^18.0.6",
     "@octokit/rest": "^22.0.0",
     "@whiskeysockets/baileys": "npm:xmd-baileys@latest",
-  "jimp": "^1.6.0"",
+  "jimp": "^1.6.0",
     "acrcloud": "^1.4.0",
     "adm-zip": "^0.5.16",
     "api-dylux": "^1.8.5",
