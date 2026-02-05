@@ -1,14 +1,36 @@
-// Aslam Helper2 Module - Command registration function
-const commands = [];
 
-function helper2(options, handler) {
-  if (typeof options === 'object' && typeof handler === 'function') {
-    commands.push({ options, handler });
-    return true;
-  }
-  return helper2;
-}
+// utils/contextManager.js
+const NEWS_LETTER_JID = "120363402252728845@newsletter";
+const BOT_NAME = "Aslam-max";
+const thumbnails = [
+                "https://files.catbox.moe/vtg0x1.jpeg",
+                "https://files.catbox.moe/vtg0x1.jpeg"
+            ];
 
-helper2.commands = commands;
+            // Select a random thumbnail
+            const DEFAULT_THUMBNAIL = thumbnails[Math.floor(Math.random() * thumbnails.length)];
 
-module.exports = helper2;
+const createContext2 = (userJid, options = {}) => ({
+    contextInfo: {
+        mentionedJid: [userJid],
+        forwardingScore: 999,
+        isForwarded: true,
+        forwardedNewsletterMessageInfo: {
+            newsletterJid: NEWS_LETTER_JID,
+            newsletterName: BOT_NAME,
+            serverMessageId: Math.floor(100000 + Math.random() * 900000)
+        },
+        externalAdReply: {
+            title: options.title || BOT_NAME,
+            body: options.body || "Premium WhatsApp Bot Solution",
+            thumbnailUrl: options.thumbnail || DEFAULT_THUMBNAIL,
+            mediaType: 1,
+            showAdAttribution: true,
+            renderLargerThumbnail: true 
+        }
+    }
+});
+
+module.exports = {
+    createContext2
+};
