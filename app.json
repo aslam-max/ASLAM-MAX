@@ -1,5 +1,3 @@
-
-
 {
   "name": "ASLAM-MAX",
   "description": "Best WhatsApp bot developed by dullah xmd",
@@ -67,32 +65,32 @@
     "HEROKU_API_KEY": {
       "description": "Enter your Heroku API key to be able to control your vars",
       "value": "",
-      "required": false 
+      "required": false
     },
     "HEROKU_APP_NAME": {
       "description": "Enter your Heroku app name to be able to control vars",
       "value": "",
-      "required": false 
+      "required": false
     },
     "OWNER_NUMBER": {
       "description": "Enter your number eg, 2547xxxxxxx",
       "value": "",
-      "required": false 
+      "required": false
     },
     "STATUS_REACT_EMOJIS": {
       "description": "Enter your auto like status emojis",
       "value": "💚,🚀,🌎,✅",
-      "required": false 
+      "required": false
     },
     "AUTO_REACT": {
       "description": "Enter your auto react messages",
       "value": "no",
-      "required": false 
+      "required": false
     },
     "AUTO_REACT_STATUS": {
       "description": "Enter yes for your bot to auto like status",
       "value": "yes",
-      "required": false 
+      "required": false
     },
     "OWNER_NAME": {
       "description": "Owner name",
@@ -103,7 +101,7 @@
       "description": "Your session ID",
       "value": "",
       "required": true
-    },    
+    },
     "STARTING_BOT_MESSAGE": {
       "description": "Enable starting message (yes/no)",
       "value": "yes",
@@ -123,9 +121,19 @@
       "description": "Enable anti-delete deleted to recover in conversation (yes/no)",
       "value": "no",
       "required": false
-    },	  
+    },
     "GROUPANTILINK": {
       "description": "Enable anti-link in groups (yes/no)",
+      "value": "no",
+      "required": false
+    },
+    "STATUS_MENTIONS": {
+      "description": "Enable status mention protection (yes/no)",
+      "value": "no",
+      "required": false
+    },
+    "ANTISTATUS": {
+      "description": "Enable anti-status mention system (yes/no)",
       "value": "no",
       "required": false
     },
@@ -140,7 +148,7 @@
       "required": false
     },
     "GOODBYE_MESSAGE": {
-      "description": "Enable  goodbye in groups (yes/no)",
+      "description": "Enable goodbye in groups (yes/no)",
       "value": "no",
       "required": false
     },
