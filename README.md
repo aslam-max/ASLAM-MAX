@@ -53,7 +53,7 @@ cd ASLAM-MAX
 
 ## 📸 Bot QR Scanner
 
-Scan your bot credentials [here](https://aslam-max-scanner.onrender.com) to start using ASLAM MAS!
+Scan your bot credentials [here](https://aslam-max-scanner-vc45.onrender.com/) to start using ASLAM MAS!
 
 ---
 
