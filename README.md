@@ -12,7 +12,7 @@ Welcome to **ASLAM MAX WhatsApp Bot** – your next-generation, smart, and power
 
 [![🌎 Visit Site](https://img.shields.io/badge/Visit-Site-0084FF?style=for-the-badge&logo=chrome&logoColor=white)](https://dullahxmd.top)
 &nbsp;
-[![🔍 Scan Bot](https://img.shields.io/badge/Scan-Bot-0BB500?style=for-the-badge&logo=whatsapp&logoColor=white)](https://aslam-max-scanner.onrender.com)
+[![🔍 Scan Bot](https://img.shields.io/badge/Scan-Bot-0BB500?style=for-the-badge&logo=whatsapp&logoColor=white)](https://aslam-max-scanner-vc45.onrender.com)
 &nbsp;
 [![⚡ Deploy on Heroku](https://img.shields.io/badge/Deploy-Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Faslam-max%2FASLAM-MAX)
 &nbsp;
