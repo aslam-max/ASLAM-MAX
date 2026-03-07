@@ -61,7 +61,7 @@ Scan your bot credentials [here](https://aslam-max-scanner-vc45.onrender.com/) t
 
 - [Website](https://dullahxmd.top)
 - [Source](https://github.com/aslam-max/ASLAM-MAX)
-- [Bot Scanner](https://aslam-max-scanner.onrender.com)
+- [Bot Scanner](https://aslam-max-scanner-1.onrender.com)
 - [Deploy on Heroku](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Faslam-max%2FASLAM-MAX)
 
 ---
