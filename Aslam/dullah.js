@@ -27,4 +27,5 @@ function dullah(obj, fonctions) {
     return infoComs;
 }
 
+global.dullah = dullah;
 module.exports = { dullah, cm, ev };
